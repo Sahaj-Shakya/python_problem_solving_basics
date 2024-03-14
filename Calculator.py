@@ -1,19 +1,24 @@
 while True:
     try:
         print("Press 'e' to exit.")
-        n1 = float(input("Enter first number: "))
-        operator = input("Enter an operator(+, -, *, /): ")
-        n2 = float(input("Enter second number: "))
-        line = "----------------------------"
-        
+        n1 = (input("Enter first number: "))
         if n1 == 'e':
             break
+        n1 = float(n1)
         
+        operator = input("Enter an operator(+, -, *, /): ")
         if operator == 'e':
             break
         
+        n2 = (input("Enter second number: "))
         if n2 == 'e':
             break
+        n2 = float(n2)
+        
+        line = "----------------------------"
+        
+        
+        
         
         if operator == '+':
             result = n1 + n2
