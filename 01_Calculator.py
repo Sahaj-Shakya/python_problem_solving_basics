@@ -17,9 +17,6 @@ while True:
         
         line = "----------------------------"
         
-        
-        
-        
         if operator == '+':
             result = n1 + n2
             print(f"{n1} {operator} {n2} = {result}")
